@@ -12,8 +12,7 @@ class MainTestClass {
 	void testSize() {
 		
 		System.out.println("Test size");
-		int result = months.getSize();
-	    assertEquals(12, result);
+		assertEquals(12, months.getSize());
 		
 	}
 
